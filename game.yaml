@@ -1,0 +1,119 @@
+Q3:
+  text: 
+  options:
+    a:
+      choice:
+      next:
+      outcome:
+    b:
+      choice:
+      next:
+      outcome:
+    c: 
+      choice: 
+      next: 
+      outcome: 
+Q1:
+  text: Here is the situation, what do you want to do?
+  options:
+    a:
+      choice: jump
+      next: exit
+      outcome: you die
+    b:
+      choice: run
+      next: exit
+      outcome: you die
+    c:
+      choice: shout
+      next: Q2
+      outcome: you scared off the Zombies
+Q2:
+  text: Oh no! During your trip, your private jet suddenly starts rocking. 
+
+    What do you want to do?
+  options:
+    a:
+      choice: go to sleep; you trust the pilot to be able to navigate through these winds
+      next: exit
+      outcome: You fall asleep quickly but wake up when the jet starts to fall. 
+        You rush to the window and see that you are dropping fast. 
+        You run towards the pilot but his veins are purple and his cold hands reach desperately for you.
+
+        Oh no! You have died!
+    b:
+      choice: jump off the plane. You have heard how amazing parachuting can be with the right wind
+      next: exit
+      outcome: You jump of the jet as it tumbles through the sky.
+        You are speeding down and think that now would be a great time to pull out the parachute. 
+        You then realise you forgot to bring one.
+
+        Oh no! You have died!
+    c:
+      choice: something is fishy here. go to the pilot to see what the problem is
+      next: Q3
+      outcome: You head to the pilots room and discover that he is infected!
+        You do not have much time to decide what to do, as he is running towards you.
+Q3:
+  text: What would you like to do?
+  options:
+    a:
+      choice: try taking him down with a random pen you have in your pocket
+      next: Q4
+      outcome: You ready yourself as the zombie comes at you. 
+        You abandon the pen and you kick him repeatedly until he falls apart. 
+        Suddenly the jet turns upside down and the side door opens and everything falls out, but you hold onto a handle. 
+        You climb up through the space to the pilot seat, even though you do not know how to pilot a jet
+    b:
+      choice: jump off the jet
+      next: exit
+      outcome: You jump off, and land flat on the ocean. 
+
+      Oh no! You have died!
+    c: 
+      choice: try pushing him off the jet
+      next: exit
+      outcome: You grab his arm, but you end up fainting because of his terrible smell, and he eats you.
+
+      Oh no! You have died!
+Q4:
+  text: What would you like to do?
+  options:
+    a:
+      choice: press the green button on the left
+      next: exit
+      outcome: You press the green button on the left. It does nothing. Sadly, you plummet to your death.
+
+      Oh no! You have died!
+    b:
+      choice: press the red button on the right
+      next: Q5
+      outcome: You press the red button on the right. A speaker starts to speak:
+        'Self-detruction has been activated'
+        '10...9...8...'
+    c: 
+      choice: turn the knob above the control wheel
+      next: Q6
+      outcome: You turn the knob above the control wheel. The speakers start to speak:\
+        'Auto-pilot activted.'
+        You sigh in relief as the jet steadies itself.
+        However, the jet doens't know you are over the water, and starts to land. 
+        You jump out of the plane just as it crashes into the water.
+Q5:
+  text: What would you like to do?
+  options:
+    a:
+      choice: try and figure out how to stop it
+      next: exit
+      outcome: You look around the control panel and and press all th buttons, but they do nothing. 
+        Sadly, your time runs out
+
+        Oh no! You have died!
+    b:
+      choice: accept your inevitable death
+      next: exit
+      outcome:
+    c: 
+      choice: jump out of the plane
+      next: Q6
+      outcome: 
