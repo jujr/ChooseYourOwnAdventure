@@ -13,7 +13,7 @@ Q3:
       choice: 
       next: 
       outcome: 
-Q1:
+start:
   text: Here is the situation, what do you want to do?
   options:
     a:
@@ -69,13 +69,13 @@ Q3:
       next: exit
       outcome: You jump off, and land flat on the ocean. 
 
-      Oh no! You have died!
+        Oh no! You have died!
     c: 
       choice: try pushing him off the jet
       next: exit
       outcome: You grab his arm, but you end up fainting because of his terrible smell, and he eats you.
 
-      Oh no! You have died!
+        Oh no! You have died!
 Q4:
   text: What would you like to do?
   options:
@@ -84,11 +84,11 @@ Q4:
       next: exit
       outcome: You press the green button on the left. It does nothing. Sadly, you plummet to your death.
 
-      Oh no! You have died!
+        Oh no! You have died!
     b:
       choice: press the red button on the right
       next: Q5
-      outcome: You press the red button on the right. A speaker starts to speak:
+      outcome: You press the red button on the right. A speaker starts to speak:\
         'Self-detruction has been activated'
         '10...9...8...'
     c: 
