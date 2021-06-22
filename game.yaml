@@ -112,8 +112,10 @@ Q5:
     b:
       choice: accept your inevitable death
       next: exit
-      outcome:
+      outcome: You accept your death and spend your last moments meditationg.
+
+        Oh no! You have died!
     c: 
       choice: jump out of the plane
       next: Q6
-      outcome: 
+      outcome: You wait until the jet is close enough to the water and 
